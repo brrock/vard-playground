@@ -1,0 +1,31 @@
+{
+  "name": "vard-playground",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "bun './**/*.html'",
+    "build": "bun 'index.build.ts'"
+  },
+  "dependencies": {
+    "@andersmyrmel/vard": "1.2.0",
+    "@radix-ui/react-label": "2.1.8",
+    "@radix-ui/react-select": "2.2.6",
+    "@radix-ui/react-slot": "1.2.4",
+    "bun-plugin-tailwind": "0.1.2",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.553.0",
+    "non.geist": "1.0.4",
+    "react": "19",
+    "react-dom": "19",
+    "tailwind-merge": "3.4.0",
+    "tailwindcss": "4.1.17",
+    "tailwindcss-animate": "1.0.7"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.2",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.4",
+    "@types/react-dom": "19.2.3"
+  }
+}
